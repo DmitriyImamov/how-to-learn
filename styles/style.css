@@ -22,16 +22,6 @@
   background-color: #f2f2f2;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-
-  margin-right: 0;
-  margin-top: 80px;
-
-  color: #fff;
-}
-
 .logo {
   width: 183px;
   height: 32px;
@@ -276,9 +266,12 @@
 .table__cell_theme_dark {
   width: 200px;
 
+  margin-right: 0;
   margin-top: 80px;
 
   z-index: 2;
+
+  color: #fff;
 }
 
 .kaufman__triangle {
