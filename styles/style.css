@@ -234,9 +234,11 @@
 }
 
 .feynman__link {
+  margin-right: 48px;
+
   position: absolute;
   top: 50%;
-  right: 48px;
+  right: 0;
 
   color: #2f80ed;
   font-size: 36px;
