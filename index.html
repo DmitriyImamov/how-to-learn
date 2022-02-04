@@ -3,25 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
 <body>
   <div class="page">
     <header class="header">
-      <img class="logo logo_place_header" src="images/logo_place_header.svg" alt="логотип яндекс практикум">
+      <img class="logo logo_place_header" src="images/logo/logo_place_header.svg" alt="логотип яндекс практикум">
       <h1 class="header__title">
         Научиться учиться
       </h1>
       <p class="header__subtitle">
-        Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class="header__link" href="#">Узнать &rarr;</a>
+        Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class="header__link link-active" href="#">Узнать &rarr;</a>
       </p>
-      <img class="header__main-illustration" src="./images/header-image.png" alt="картина опять двойка">
-      <div class="header__square-pic"></div>
+      <img class="header__main-illustration" src="./images/header/header-image.png" alt="картина опять двойка">
+      <div class="header__square-pic rotation"></div>
     </header>
 
     <main class="content">
+      <section class="techniques">
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+        <ul class="cards">
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards/cards-attention.png" alt="Два вида внимания" >
+            <h3 class="cards__title">Два вида внимания</h3>
+            <p class="cards__descriprion">
+              Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.
+            </p>
+          </li>
+
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards/cards-recall.png" alt="Recall">
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__descriprion">
+              Вспоминайте изученное — это позволит соединить разрозненные порции памяти.
+            </p>
+          </li>
+
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards/cards-interliving.png" alt="Интерливинг">
+            <h3 class="cards__title">Интерливинг</h3>
+            <p class="cards__descriprion">
+              Изучайте несколько навыков одновременно, они обогащают друг друга.
+            </p>
+          </li>
+
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards/cards-question.png" alt="Вопросы" >
+            <h3 class="cards__title">Вопросы</h3>
+            <p class="cards__descriprion">
+              Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.
+            </p>
+          </li>
+
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards/cards-attention.png" alt="Иллюзия компетентности" >
+            <h3 class="cards__title">Иллюзия компетентности</h3>
+            <p class="cards__descriprion">
+              Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.
+            </p>
+          </li>
+        </ul>
+      </section>
+
       <section class="description">
         <div class="two-columns">
           <h2 class="two-columns__brief">
@@ -137,9 +182,8 @@
         <p class="feynman__subtitle">
           Выучить и не забыть.
         </p>
-        <a href="#" class="feynman__link">Подробнее &rarr;</a>
+        <a class="feynman__link link-active" href="#">Подробнее &rarr;</a>
       </section>
-
 
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">
@@ -241,14 +285,14 @@
           </li>
         </ul>
 
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
     </main>
 
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="логотип яндекс практикум">
+          <img class="logo logo_place_footer" src="./images/logo/logo_place_footer.svg" alt="логотип яндекс практикум">
           <p class="footer__author">
             &#169; 2021. Дмитрий Имамов
           </p>
@@ -260,17 +304,17 @@
           </h3>
           <ul class="footer__column-links">
             <li>
-              <a href="" class="footer__column-link">
+              <a class="footer__column-link link-active" href="#">
                 Главная
               </a>
             </li>
             <li>
-              <a href="" class="footer__column-link">
+              <a class="footer__column-link link-active" href="#">
                 Концепция
               </a>
             </li>
             <li>
-              <a href="" class="footer__column-link">
+              <a class="footer__column-link link-active" href="#">
                 Наставники
               </a>
             </li>
@@ -283,18 +327,18 @@
           </h3>
           <ul class="footer__column-links">
             <li>
-              <a href="" class="footer__column-link">
-                <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="фейсбук"> Facebook
+              <a class="footer__column-link link-active" href="#">
+                <img class="footer__social-icon" src="./images/footer/facebook_color_white.svg" alt="фейсбук"> Facebook
               </a>
             </li>
             <li>
-              <a href="" class="footer__column-link">
-                <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="в контакте"> ВКонтакте
+              <a class="footer__column-link link-active" href="#">
+                <img class="footer__social-icon" src="./images/footer/vk_color_white.svg" alt="в контакте"> ВКонтакте
               </a>
             </li>
             <li>
-              <a href="" class="footer__column-link">
-                <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="инстаграм"> Instagram
+              <a class="footer__column-link link-active" href="#">
+                <img class="footer__social-icon" src="./images/footer/instagram_color_white.svg" alt="инстаграм"> Instagram
               </a>
             </li>
           </ul>
