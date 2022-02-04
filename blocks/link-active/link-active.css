@@ -2,9 +2,9 @@
   opacity: 1;
 
   transition-property: opacity;
-  transition-duration: .7s;
+  transition-duration: 1s;
 }
 
 .link-active:hover {
-  opacity: .8;
+  opacity: .7;
 }
