@@ -7,4 +7,13 @@
   line-height: 42px;
   font-weight: 400;
   text-decoration: none;
+
+  opacity: 1;
+
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+
+.khan__buy-link:hover {
+  opacity: .7;
 }

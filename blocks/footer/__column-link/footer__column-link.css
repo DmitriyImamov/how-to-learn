@@ -3,4 +3,13 @@
   font-size: 18px;
   line-height: 30px;
   text-decoration: none;
+
+  opacity: 1;
+
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+
+.footer__column-link:hover {
+  opacity: .7;
 }
