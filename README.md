@@ -20,23 +20,23 @@
 ### Добавлены новые секции
 *  _techniques_
 
-![techniques](./techniques.png)
+![techniques](./README/techniques.png)
 ---
 *  _video_
 
-![video](./video.png)
+![video](./README/video.png)
 ---
 *  _oakley_
 
-![oakley](./oakley.png)
+![oakley](./README/oakley.png)
 ---
 *  _khan_
 
-![khan](./khan.png)
+![khan](./README/khan.png)
 
 *  _resources_
 
-![resources](./resources.png)
+![resources](./README/resources.png)
 ---
 
 ## Технологии
@@ -48,16 +48,16 @@
 * Применение элемента  iframe
 
 ### Примеры анимации
-![анимация шапки](./header__animation.gif)
+![анимация шапки](./README/header__animation.gif)
 
 ---
 
-![анимация подвала](./kaufman.gif)
+![анимация подвала](./README/kaufman.gif)
 
 ---
 
 ### Пример Flexbox и gap
-![пример flexbox и gap](./flex.png)
+![пример flexbox и gap](./README/flex.png)
 
 ---
 
