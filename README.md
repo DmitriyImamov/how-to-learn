@@ -57,7 +57,7 @@
 ---
 
 ### Пример Flexbox и gap
-![пример flexbox и gap](/README/flex.png)
+![пример flexbox и gap](./README/flex.png)
 
 ---
 
