@@ -70,5 +70,6 @@
 * Добавить образовательные видео
 
 
-## Ссылки
+## Ссылки на учебные проекты
 * [Ссылка на проект](https://dmitriyimamov.github.io/how-to-learn/)
+* [Ссылка на проект](https://dmitriyimamov.github.io/russian-travel/index.html)
